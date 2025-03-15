@@ -1,12 +1,12 @@
-# React + Vite
+# React + Vite para inicializar el proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bibliotecas externas a react utilizadas:
 
-Currently, two official plugins are available:
+axios - Para las consultas a la API de RAWG.
+useDebounce de @uidotdev/useHooks - Para poner delay en la barra de búsqueda y no realizar consultas a la api letra por letra.
+react-router-dom - Para realizar las rutas de las 2 páginas de la app Home y gamePage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Observaciones:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El parámetro "search" de la api no realiza las comparaciones automaticamente, y para no realizar tantas consultas a la api, ya que tienen un limite mensual, y entre pruebas y pruebas se pierden demasiadas.
