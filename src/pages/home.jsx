@@ -72,7 +72,10 @@ const Home = () => {
   
   return (
     <div>
-      <h1 className="title-home">VideoJuegos</h1>
+      <header className="header-title">
+        <div className="icon-title"><h1>🎮</h1></div>
+        <h1 className="title-home">VideoJuegos</h1>
+      </header>
       <div className="filters-container">
         <SearchBar filters = {filters} setFilters = {setFilters}/>
         <hr />
