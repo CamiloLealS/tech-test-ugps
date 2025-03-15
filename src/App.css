@@ -21,7 +21,6 @@ body {
   }
 }
 
-
 .title-home {
   color: white;
 }
@@ -172,6 +171,7 @@ body {
   padding: 10px;
   border: 2px solid #ccc;
   background-color: white;
+  color: black;
   border-radius: 8px;
   font-size: 1rem;
   outline: none;

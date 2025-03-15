@@ -6,7 +6,6 @@ import { useDebounce } from "@uidotdev/usehooks";
 import GameList from "../components/gameList";
 import Pagination from "../components/pagination";
 import YearFilter from "../components/yearFilter";
-
 const API_KEY = import.meta.env.VITE_API_KEY_RAWG;
 const BASE_URL = "https://api.rawg.io/api/games";
 
@@ -72,10 +71,10 @@ const Home = () => {
   
   return (
     <div>
-      <header className="header-title">
+      <div className="header-title">
         <div className="icon-title"><h1>🎮</h1></div>
         <h1 className="title-home">VideoJuegos</h1>
-      </header>
+      </div>
       <div className="filters-container">
         <SearchBar filters = {filters} setFilters = {setFilters}/>
         <hr />
