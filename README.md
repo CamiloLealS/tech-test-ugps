@@ -9,4 +9,4 @@ react-router-dom - Para realizar las rutas de las 2 páginas de la app Home y ga
 
 Observaciones:
 
-El parámetro "search" de la api no realiza las comparaciones automaticamente, y para no realizar tantas consultas a la api, ya que tienen un limite mensual, y entre pruebas y pruebas se pierden demasiadas.
+El parámetro "search" de la api no realiza las comparaciones con el nombre de los juegos automaticamente, y para no realizar tantas consultas a la api, ya que tienen un limite mensual que entre pruebas y pruebas se pierden demasiadas, preferí dejarlo como funciona desde la API.
