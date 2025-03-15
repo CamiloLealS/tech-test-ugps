@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
-import SearchBar from "../components/SearchBar";
+import SearchBar from "../components/searchBar";
 import Filter from "../components/filter";
 import { useDebounce } from "@uidotdev/usehooks";
 import GameList from "../components/gameList";
