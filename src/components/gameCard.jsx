@@ -31,7 +31,7 @@ const GameCard = ({ game }) => {
       </div>
 
       <div className="game-info">
-        <h3>{game.name}</h3>
+        <h3 className="game-info-name">{game.name}</h3>
         {game.metacritic && <p className="metacritic-score">Metacritic: {game.metacritic}</p>}
       </div>
 

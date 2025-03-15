@@ -79,7 +79,11 @@ const Home = () => {
         <div className="filters">
           <Filter filters = {filters} setFilters = {setFilters}/>
           <YearFilter filters = {filters} setFilters = {setFilters}/>
-          <button onClick={resetFilters}> Limpiar Filtros </button>
+          {Object.values(filters).some(value => value !== "") && (
+            <button className="btn-clean" onClick={resetFilters}>
+              Limpiar Filtros
+            </button>
+          )}
         </div>
       </div>
       <GameList games={games} currentPage= {currentPage} />

@@ -53,8 +53,22 @@ body {
   }
 }
 
+.btn-clean {
+  color: white;
+  background-color: red;
+}
+
+.btn-clean:hover {
+  background-color: #333;
+  opacity: 0.7;
+}
+
 .card {
   padding: 2em;
+}
+
+.game-info-name {
+  color: rgb(3, 0, 39);
 }
 
 .read-the-docs {
@@ -156,6 +170,7 @@ body {
   max-width: 700px;
   padding: 10px;
   border: 2px solid #ccc;
+  background-color: white;
   border-radius: 8px;
   font-size: 1rem;
   outline: none;
@@ -216,6 +231,7 @@ body {
   border-radius: 8px;
   border: 2px solid #ccc;
   background-color: white;
+  color: black;
   font-size: 1rem;
   outline: none;
   transition: border 0.2s ease-in-out;
